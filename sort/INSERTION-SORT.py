@@ -22,3 +22,4 @@ if __name__ == "__main__":
         print "Before:" + str(A)
         B = INSERTION_SORT(A)
         print "After: "+ str(B)
+        raw_input("press any keyy...")

@@ -1,4 +1,6 @@
-##!/usr/bin/env python
+#!/usr/bin/env python
+# 
+
 
 def INSERTION_SORT(A):
         "INSERTION_SORT"
@@ -9,7 +11,7 @@ def INSERTION_SORT(A):
                         A[i+1] = A[i]
                         i-=1
                 A[i+1]=key
-        return A
+        
 
 
 
@@ -20,6 +22,6 @@ if __name__ == "__main__":
         print __name__
         A=[2, 5, 1, 8, 10]
         print "Before:" + str(A)
-        B = INSERTION_SORT(A)
-        print "After: "+ str(B)
-        raw_input("press any keyy...")
+        INSERTION_SORT(A)
+        print "After: " + str(A)
+        raw_input("press any key...")
